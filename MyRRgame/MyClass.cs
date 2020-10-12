@@ -19,6 +19,7 @@ namespace MyRRgame
 
         public int SpinGun()
         {
+            //spin chamber
             Random rand = new Random();
             BulletFire = rand.Next(1, 7); 
             return BulletFire;
